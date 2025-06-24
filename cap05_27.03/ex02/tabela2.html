@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela Técnica</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 20px;
+}
+
+    table {
+  border-collapse: collapse;
+  width: 700px;
+  text-align: center;
+}
+
+    th, td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+    thead th {
+  background-color: #003366;
+  color: white;
+}
+
+    .subcabecalho th {
+  background-color: #003366;
+  color: white;
+  font-weight: normal;
+}
+
+    tfoot .rodape {
+  background-color: #003366;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+}
+
+    img {
+  width: 20px;
+  height: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>MODELO</th>
+        <th>ALTURA</th>
+        <th>LARGURA</th>
+        <th colspan="2">ACESSÓRIOS</th>
+      </tr>
+      <tr class="subcabecalho">
+        <th colspan="3"></th>
+        <th>USB</th>
+        <th>WI-FI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Xk-7</td>
+        <td>20</td>
+        <td>20</td>
+        <td><img src="sim.jpg" alt="Selecionado"></td>
+        <td><img src="nao.jpg" alt="Não selecionado"></td>
+      </tr>
+      <tr>
+        <td>WZ8</td>
+        <td>10</td>
+        <td>15</td>
+        <td><img src="nao.jpg" alt="Não selecionado"></td>
+        <td><img src="nao.jpg" alt="Não selecionado"></td>
+      </tr>
+      <tr>
+        <td>X15</td>
+        <td>30</td>
+        <td>30</td>
+        <td><img src="sim.jpg" alt="Selecionado"></td>
+        <td><img src="sim.jpg" alt="Selecionado"></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5" class="rodape">Dados técnicos do equipamento</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
